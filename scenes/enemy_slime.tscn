@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cso33kvuioomj"]
+
+[ext_resource type="Texture2D" uid="uid://bf6tkfka5qqyd" path="res://assets/sprites/enemies/slime/black_slime_idle.png" id="1_su882"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mdutv"]
+radius = 16.7631
+
+[node name="EnemySlime" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_su882")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 2)
+shape = SubResource("CircleShape2D_mdutv")

@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://b1axqje5a8vky"]
+
+[ext_resource type="Script" path="res://scripts/light_orb_ability.gd" id="1_pu4j7"]
+[ext_resource type="Texture2D" uid="uid://ceuyyptb3d7hn" path="res://assets/sprites/abilities/blueorb.png" id="1_yvdh0"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_01ocg"]
+radius = 4.0
+
+[node name="LightOrbAbility" type="Area2D"]
+script = ExtResource("1_pu4j7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.0524781, 0.0524781)
+texture = ExtResource("1_yvdh0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_01ocg")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]

@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://siygscnyie3c"]
+
+[ext_resource type="Texture2D" uid="uid://c7pm5tpdr1o0y" path="res://assets/sprites/abilities/clock_ability_sprite.png" id="1_e86l3"]
+[ext_resource type="Script" path="res://scripts/clock_ability.gd" id="1_yvmht"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_01ocg"]
+radius = 10.0499
+
+[node name="ClockAbility" type="Area2D"]
+script = ExtResource("1_yvmht")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1, -1)
+scale = Vector2(0.064, 0.064)
+texture = ExtResource("1_e86l3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_01ocg")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]

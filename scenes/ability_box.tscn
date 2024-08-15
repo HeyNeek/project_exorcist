@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://db2a7kktrhvpt"]
+
+[ext_resource type="Texture2D" uid="uid://dttmeacc5kep8" path="res://assets/sprites/abilities/square_box.png" id="1_tt68b"]
+[ext_resource type="Script" path="res://scripts/ability_box.gd" id="2_ke01h"]
+
+[node name="AbilityBox" type="Sprite2D"]
+scale = Vector2(0.369565, 0.369565)
+texture = ExtResource("1_tt68b")
+script = ExtResource("2_ke01h")
+
+[node name="CurrentAbilitySprite" type="Sprite2D" parent="."]

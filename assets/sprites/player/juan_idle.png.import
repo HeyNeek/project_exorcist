@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c22mgaomyhny7"
-path="res://.godot/imported/ron_jump.png-4eab23332ef7842ddf63532d6d4c2bf4.ctex"
+uid="uid://cifauw2xksnpr"
+path="res://.godot/imported/juan_idle.png-8b43f9703d6ee327aa578e66accd23af.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/player/ron_jump.png"
-dest_files=["res://.godot/imported/ron_jump.png-4eab23332ef7842ddf63532d6d4c2bf4.ctex"]
+source_file="res://assets/sprites/player/juan_idle.png"
+dest_files=["res://.godot/imported/juan_idle.png-8b43f9703d6ee327aa578e66accd23af.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6pno6mtog2rt"
-path="res://.godot/imported/ron_run.png-8e797d7465978376a8b5e17845092fbe.ctex"
+uid="uid://bo2p0v5al5asf"
+path="res://.godot/imported/juan_walk_sheet.png-debdbfa1ad20197c2a45c3bfd758165b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/player/ron_run.png"
-dest_files=["res://.godot/imported/ron_run.png-8e797d7465978376a8b5e17845092fbe.ctex"]
+source_file="res://assets/sprites/player/juan_walk_sheet.png"
+dest_files=["res://.godot/imported/juan_walk_sheet.png-debdbfa1ad20197c2a45c3bfd758165b.ctex"]
 
 [params]
 

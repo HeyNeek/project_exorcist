@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dgf5n64jrxp8j"
-path="res://.godot/imported/ron_fall.png-27e0552459f3308d03d0777cd53198dd.ctex"
+uid="uid://bgx1glmxf5f37"
+path="res://.godot/imported/juan_jump.png-a6fb3db4b43fc10e0c77d2b6a5872ebc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/player/ron_fall.png"
-dest_files=["res://.godot/imported/ron_fall.png-27e0552459f3308d03d0777cd53198dd.ctex"]
+source_file="res://assets/sprites/player/juan_jump.png"
+dest_files=["res://.godot/imported/juan_jump.png-a6fb3db4b43fc10e0c77d2b6a5872ebc.ctex"]
 
 [params]
 
